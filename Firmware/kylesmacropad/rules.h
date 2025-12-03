@@ -1,0 +1,12 @@
+MCU = rp2040
+F_CPU = 133000000
+
+CUSTOM_MATRIX = yes
+
+ENCODER_ENABLE = yes
+OLED_ENABLE = yes
+
+I2C_DRIVER = yes
+I2C_USE_SOFT = no
+
+# No VIA support
