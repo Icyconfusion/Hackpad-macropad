@@ -24,4 +24,5 @@ BOM:
 4x M3x16 Bolt
 4x M3 Heatset
 
+During the prject I had to solve the issue of not having enough pins to fit all the buttons. This led me to trying a button matrix, but instead I chose charlieplexing as the more appropriate method to fit the buttons. I then decided, to increase the outputs, I should introduce layers to the macropad in QMK. This part of the QMK firmware was quite easy, but it took many, many hours attempting to solve the problems that arose from charlieplexing.
 A massive thank you to Hackclub blueprint for this project and their guidance on the Hackpad project.
